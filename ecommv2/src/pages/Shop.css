@@ -1,0 +1,39 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .product {
+    flex: 0 0 300px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .product img {
+    width: 80%;
+    height: auto;
+  }
+  
+  .price {
+    font-weight: bold;
+  }
+  
+  .product h3 {
+    color: gold;
+    font-size: 7vh;
+  }
+  .product .price {
+    color: #fff;
+    font-size: 4.5vh;
+  }
+  
+  .product .description {
+    color: #fff;
+    font-size: 2.5vh;
+  }
+  
+  /* //// End of Products Page */
+
